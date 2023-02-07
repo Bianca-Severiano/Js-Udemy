@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> <!--Especificando metadados do HTML-->
+    <meta charset="UTF-8">
+    <!--Não obrigatória, mas identifica codificação de caracteres (bytes -> texto) para decodificação-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        input {
+            width: 500px;
+        }
+
+        * {
+            text-align: center;
+        }
+    </style>
+    <title>Aprendendo sobre tags</title><!--Título do site-->
+</head>
+
+<body> <!--Não é obrigatória, porém é recomendável pois representa tudo o que é visível na página-->
+
+    <h1>Aprendendo sobre tags!</h1>
+    <!--Algumas tags possuem corpo, ou seja abrem e fecham com uma tag de mesmo nome. Ex:-->
+    <h2>Tags com corpo</h2>
+    <div>
+        <p> div e p são exemplos de tag que possuem corpo, pois tem início e fim, abertura e fechamento. Podem ter
+            atributos</p>
+        <p>Exemplo:</p>
+        <input type="text" value="<div></div>">
+    </div>
+
+    <h2>Tags sem corpo</h2>
+    <div>
+        <p>Tags que não possuem fechamento, como a tag link são exemplos de tag sem corpo. Elas geralmente são
+            acompanhadas de atributos.
+        <p>Exemplo:</p>
+        <input type="text" name="" id="" value="<link rel=stylesheet href=style.css">
+        </p>
+    </div>
+    <hr>
+
+</body>
+
+</html>
